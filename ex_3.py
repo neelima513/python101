@@ -1,0 +1,1 @@
+print("i could have code like this.")#
