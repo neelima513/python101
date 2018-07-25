@@ -4,3 +4,8 @@ name="nani"
 print(counter)
 print(miles)
 print(name)
+
+sample output:
+  200
+  444.0
+  nani
