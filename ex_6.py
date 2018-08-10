@@ -11,7 +11,7 @@ keyword_order="{s},{b}and{j}".format(j='john',b='bill',s='sean')
 print('\n----keyword_order----')
 print(keyword_order)
 
-sample output:
+'''sample output:
   
   ---default order---
 john,billandsean
@@ -20,7 +20,7 @@ john,billandsean
 bill, johnand sean
 
 ----keyword_order----
-sean,billandjohn
+sean,billandjohn'''
 
 
   

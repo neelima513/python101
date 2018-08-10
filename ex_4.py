@@ -15,11 +15,11 @@ print("we have",passengers,"to carpool today.")
 print("we need to put about",average_passengers_per_car,"in each cars.") 
 
 
-sample output:
+'''sample output:
   
 there are cars 100 cars available.
 threr are only 24 drivers available.
 there will be 76 empty cars today.
 we can transport 96.0 pepole today
 we have 90 to carpool today.
-we need to put about 3.75 in each cars.
+we need to put about 3.75 in each cars.'''

@@ -24,7 +24,7 @@ print("Is it greater or equal?", 5 >= -2)
 print("Is it less or equal?", 5 <= -2)
 
 
-sample output:
+'''sample output:
   
 I will now count my chickens:
 Hens 30.0
@@ -39,7 +39,7 @@ Oh, that's why it's False.
 How about some more.
 Is it greater? True
 Is it greater or equal? True
-Is it less or equal? False
+Is it less or equal? False'''
 
 
   

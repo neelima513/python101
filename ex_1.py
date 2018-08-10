@@ -1,6 +1,6 @@
 print("hello world")
 print("hai this is nani")
 
-sample output:
+'''sample output:
   hello world
-hai this is nani
+hai this is nani'''
