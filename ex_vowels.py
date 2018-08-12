@@ -1,10 +1,12 @@
-word=input("enter a string")
-def vowels(word):
-	vowels=['a','e','i','o','u','A','E','I','o','U']
-	count=0
-	for letter in word :
-		if letter in word:
-			count=count+1
-			count+=1
-			print(count)
-			 
+def vowel(str):
+    str="nandhini reddy"
+    vowel=['a','e','i','o','u' or 'A','E','I','O','U']
+    count=0
+    for i in str:
+        if i in vowel:
+           count+=1
+    print("No. of vowels:",count)
+
+vowel(str)
+
+'''output:No. of vowels: 4'''
