@@ -9,3 +9,12 @@ print(arguments)
 
 
 print("this is Hw_1.py")
+
+'''
+input:python ex_sysmodule.py nani nandhu vicky
+
+output:
+
+ex_sysmodule.py
+['nani', 'nandhu', 'vicky']
+this is Hw_1.py'''
