@@ -3,4 +3,4 @@ def enumerate(sequence, start=0):
 	for elem in sequence:
 		yield n, elem
 		n= n+1
-		return n,elem
+		print(n,elem)

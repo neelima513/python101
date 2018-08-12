@@ -9,3 +9,6 @@ elif b>c :
 	print("b is larger")
 else :
 	print("c is larger")
+'''output:
+	c is larger
+'''
