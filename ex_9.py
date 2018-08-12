@@ -14,7 +14,7 @@ print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
 
-sample output:
+'''sample output:
   
    I'm tabbed in.
 I'm split
@@ -25,4 +25,4 @@ I'll do a list:
         * Cat food
         * Fishies
         * Catnip
-        * Grass
+        * Grass'''
