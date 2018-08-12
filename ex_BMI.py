@@ -3,12 +3,13 @@ weight=float(input("enter your weight \n"))
 print(weight/(height*height))
 
 
-sample output:
+'''input:
 enter your height
 5.2
 enter your weight
 39.25
+output:
+1.4515532544378698'''
 
-1.4515532544378698
 
-
+ 
