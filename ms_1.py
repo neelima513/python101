@@ -66,7 +66,7 @@ def sort(s):
 	word.sort()
 	for i in word:
 		print(i)
-s=("this is my world")
+s=("this is my world")gi
 word=s.split()
 sort(s)
 # 8. factorial of a number
