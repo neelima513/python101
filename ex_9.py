@@ -14,6 +14,7 @@ print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
 
+<<<<<<< HEAD
 '''sample output:
   
    I'm tabbed in.
@@ -26,3 +27,4 @@ I'll do a list:
         * Fishies
         * Catnip
         * Grass'''
+
