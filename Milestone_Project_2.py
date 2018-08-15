@@ -1,4 +1,6 @@
+#stack implementation 
 class Stack:
+	print("*" * 10,"stack","*" *10)
 	def __init__(self):
 		self.item=[]
 	def push(self,item):
@@ -43,6 +45,8 @@ stack.pop()
 print(stack.pop())
 '''
 output:
+'''output:
+********** stack **********
 ['nani']
 ['nani', '12']
 ['nani', '12', 'vicky']
@@ -60,7 +64,56 @@ there is an error
 None
 there is an error
 there is an error
-None
+
+
+'''
+
+#Queue implementation
+
+class Queue:
+	print("*" * 10,"Queue","*" *10)
+	def __init__(self):
+		self.items=[]
+	
+	def enqueue(self,item):
+		self.items.insert(0,item)
+		print(self.items)
+	def dequeue(self):
+		return self.items.pop()
+		print(self.items)
+
+	def isEmpty(self):
+		return self.items==[]
+	def size(self):
+		return len(self.items)
+	
+			
+q=Queue()
+print(q.isEmpty())
+q.enqueue('nandhu')
+q.enqueue('nani')
+q.enqueue('vicky')
+q.enqueue('22')
+q.enqueue('14')
+print(q.dequeue())
+print(q.dequeue())
+print(q.dequeue())
+print(q.size())
+
+
+
+''''output:
+********** Queue **********
+True
+['nandhu']
+['nani', 'nandhu']
+['vicky', 'nani', 'nandhu']
+['22', 'vicky', 'nani', 'nandhu']
+['14', '22', 'vicky', 'nani', 'nandhu']
+nandhu
+nani
+vicky
+2
 
 
 '''
