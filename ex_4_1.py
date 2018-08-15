@@ -5,7 +5,7 @@ print(counter)
 print(miles)
 print(name)
 
-'''sample output:
+''' output:
   200
   444.0
   nani'''

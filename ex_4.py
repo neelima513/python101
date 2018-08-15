@@ -15,7 +15,7 @@ print("we have",passengers,"to carpool today.")
 print("we need to put about",average_passengers_per_car,"in each cars.") 
 
 
-'''sample output:
+'''output:
   
 there are cars 100 cars available.
 threr are only 24 drivers available.
