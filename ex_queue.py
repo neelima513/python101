@@ -1,15 +1,20 @@
-queue =["Ram", "Tarun"]
+from collections import deque
+queue = deque(["Ram", "chandhu", "haari", "kesav"])
 print(queue)
-queue.append("Akbar")
+queue.append("nani")
 print(queue)
-queue.append("Birbal")
-print(queue) 
-print(queue.pop())
+queue.append("vicky")
 print(queue)
+print(queue.popleft())                 
+print(queue.popleft())                 
+print(queue)
+
 '''output:
-['Ram', 'Tarun']
-['Ram', 'Tarun', 'Akbar']
-['Ram', 'Tarun', 'Akbar', 'Birbal']
-Birbal
-['Ram', 'Tarun', 'Akbar']
+deque(['Ram', 'chandhu', 'haari', 'kesav'])
+deque(['Ram', 'chandhu', 'haari', 'kesav', 'nani'])
+deque(['Ram', 'chandhu', 'haari', 'kesav', 'nani', 'vicky'])
+Ram
+chandhu
+deque(['haari', 'kesav', 'nani', 'vicky'])
+
 '''
