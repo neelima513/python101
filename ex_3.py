@@ -24,7 +24,7 @@ print("Is it greater or equal?", 5 >= -2)
 print("Is it less or equal?", 5 <= -2)
 
 
-'''sample output:
+''' output:
   
 I will now count my chickens:
 Hens 30.0
