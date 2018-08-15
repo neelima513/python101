@@ -15,5 +15,9 @@ else:
 
 
 '''input:enter a number:97
-   output:97 is a prime number'''
+   output:97 is a prime number
+input:enter a number:4
+output:4 is not a prime number
+2 times 2 is 4
+'''
 
