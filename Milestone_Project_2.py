@@ -16,7 +16,6 @@ class Stack:
 	def peek(self):
 		n=len(self.item)
 		return self.item[n-1]
-
 stack=Stack()
 stack.push('nani')
 stack.push('12')
@@ -43,8 +42,9 @@ stack.pop()
 print(stack.pop())
 stack.pop()
 print(stack.pop())
-'''
-output:
+
+
+
 '''output:
 ********** stack **********
 ['nani']
@@ -86,8 +86,6 @@ class Queue:
 		return self.items==[]
 	def size(self):
 		return len(self.items)
-	
-			
 q=Queue()
 print(q.isEmpty())
 q.enqueue('nandhu')
@@ -99,6 +97,11 @@ print(q.dequeue())
 print(q.dequeue())
 print(q.dequeue())
 print(q.size())
+		
+
+	
+			
+
 
 
 
@@ -113,7 +116,10 @@ True
 nandhu
 nani
 vicky
-2
+2'''
 
 
-'''
+
+		
+	
+		
